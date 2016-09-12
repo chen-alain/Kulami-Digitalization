@@ -1,0 +1,54 @@
+﻿Build started 12/9/2013 10:19:43 PM.
+     1>Project "C:\Users\L\Desktop\Kulami Game\Kulami Game\Kulami Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\Kulami Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D SFML_STATIC /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Kulami Game.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Board.cpp "Kulami Game.cpp" Tile.cpp
+         Board.cpp
+     1>Board.cpp(24): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Board.cpp(27): warning C4244: '=' : conversion from 'float' to 'unsigned int', possible loss of data
+     1>Board.cpp(42): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(43): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(45): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(93): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(94): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(94): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(96): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(96): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+     1>Board.cpp(143): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>Board.cpp(144): warning C4244: 'initializing' : conversion from 'const float' to 'int', possible loss of data
+     1>Board.cpp(616): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>Board.cpp(618): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         Kulami Game.cpp
+     1>Kulami Game.cpp(110): warning C4482: nonstandard extension used: enum 'sf::Event::EventType' used in qualified name
+     1>Kulami Game.cpp(168): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Kulami Game.cpp(168): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>Kulami Game.cpp(202): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(202): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(204): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(204): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(206): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(206): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Kulami Game.cpp(220): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+         Tile.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\L\Desktop\Kulami Game\Release\Kulami Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" "sfml-graphics-s.lib" "sfml-system-s.lib" "sfml-window-s.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Kulami Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\L\Desktop\Kulami Game\Release\Kulami Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\L\Desktop\Kulami Game\Release\Kulami Game.lib" /MACHINE:X86 Release\Board.obj
+         "Release\Kulami Game.obj"
+         Release\stdafx.obj
+         Release\Tile.obj
+         Generating code
+         Finished generating code
+         Kulami Game.vcxproj -> C:\Users\L\Desktop\Kulami Game\Release\Kulami Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\L\Desktop\Kulami Game\Release\Kulami Game.exe;#1" /manifest "Release\Kulami Game.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Kulami Game.unsuccessfulbuild".
+         Touching "Release\Kulami Game.lastbuildstate".
+     1>Done Building Project "C:\Users\L\Desktop\Kulami Game\Kulami Game\Kulami Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.32
